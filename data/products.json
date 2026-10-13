@@ -1,0 +1,68 @@
+[
+  {
+    "id": "oak-dining-table",
+    "name": "მუხის სასადილო მაგიდა",
+    "category": "მაგიდები",
+    "price": 1299,
+    "description": "მუხის მასიური სასადილო მაგიდა ბუნებრივი დამუშავებით. კომფორტულად იტევს 8 ადამიანს. ხელნაკეთი, ტრადიციული შეერთების ტექნიკით, გამძლეობისთვის.",
+    "image": "/images/oak-dining-table.jpg",
+    "dimensions": { "width": 200, "height": 75, "depth": 100 },
+    "material": "მასიური მუხა",
+    "inStock": true
+  },
+  {
+    "id": "velvet-armchair",
+    "name": "ხავერდის სავარძელი",
+    "category": "სკამები",
+    "price": 649,
+    "description": "ფუფუნების ხავერდის სავარძელი კაკლის ხის ფეხებით. ღრმა სავარძლის ბალიში და საყრდენი ზურგი მაქსიმალური კომფორტისთვის. ხელმისაწვდომია მუქ მწვანე ფერში.",
+    "image": "/images/velvet-armchair.jpg",
+    "dimensions": { "width": 78, "height": 85, "depth": 82 },
+    "material": "ხავერდი / კაკალი",
+    "inStock": true
+  },
+  {
+    "id": "walnut-bookshelf",
+    "name": "კაკლის წიგნის თარო",
+    "category": "შესანახი",
+    "price": 899,
+    "description": "ხუთ-თაროიანი კაკლის წიგნის კარადა რეგულირებადი თაროებით. სუფთა, თანამედროვე ხაზები, რომელიც ნებისმიერ საცხოვრებელ სივრცეს ავსებს. კედელზე დამაგრებადი სტაბილურობისთვის.",
+    "image": "/images/walnut-bookshelf.jpg",
+    "dimensions": { "width": 90, "height": 180, "depth": 35 },
+    "material": "კაკლის შპონი",
+    "inStock": true
+  },
+  {
+    "id": "leather-sofa",
+    "name": "ტყავის დივანი",
+    "category": "დივნები",
+    "price": 2199,
+    "description": "სამადგილიანი დივანი იტალიური ნატურალური ტყავით. მასიური წიფლის ჩარჩო მაღალი ელასტიურობის ქაფის ბალიშებით. დროთა განმავლობაში უფრო ლამაზი ხდება.",
+    "image": "/images/leather-sofa.jpg",
+    "dimensions": { "width": 220, "height": 85, "depth": 95 },
+    "material": "იტალიური ტყავი / წიფელი",
+    "inStock": false
+  },
+  {
+    "id": "marble-coffee-table",
+    "name": "მარმარილოს ჟურნალის მაგიდა",
+    "category": "მაგიდები",
+    "price": 749,
+    "description": "ელეგანტური ჟურნალის მაგიდა კარარის მარმარილოს ზედაპირით და ბრინჯაოს ფეხებით. გამორჩეული ნაწარმი ნებისმიერი თანამედროვე მისაღები ოთახისთვის.",
+    "image": "/images/marble-coffee-table.jpg",
+    "dimensions": { "width": 120, "height": 40, "depth": 60 },
+    "material": "მარმარილო / ბრინჯაო",
+    "inStock": true
+  },
+  {
+    "id": "pine-bed-frame",
+    "name": "ფიჭვის საწოლის ჩარჩო",
+    "category": "საძინებელი",
+    "price": 599,
+    "description": "სკანდინავიური სტილის ორადგილიანი საწოლის ჩარჩო მასიური ფიჭვისგან. ლატოფქსის ბაზა შედის კომპლექტში. მინიმალური აწყობა, სუფთა და ბუნებრივი ესთეტიკა.",
+    "image": "/images/pine-bed-frame.jpg",
+    "dimensions": { "width": 160, "height": 35, "depth": 200 },
+    "material": "მასიური ფიჭვი",
+    "inStock": true
+  }
+]
