@@ -6,7 +6,7 @@ export default function ScrollToContact() {
       onClick={() => {
         document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
       }}
-      className="hover:text-brand-gold-400 transition-colors"
+      className="hover:text-brand-cream-300 transition-colors"
     >
       კონტაქტი
     </button>

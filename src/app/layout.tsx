@@ -85,7 +85,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         />
       </head>
       <body className="min-h-full flex flex-col font-[family-name:var(--font-georgian)]">
-        <header className="relative bg-brand-green-900">
+        <header className="relative bg-brand-green-700">
           <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 sm:py-2">
             <Link href="/" className="flex items-center gap-2">
               <Image
@@ -98,16 +98,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </Link>
 
             {/* Desktop nav */}
-            <div className="hidden md:flex gap-6 text-sm font-medium text-brand-cream-300">
+            <div className="hidden md:flex gap-6 text-sm font-medium text-white">
               <Link
                 href="/"
-                className="hover:text-brand-gold-400 transition-colors"
+                className="hover:text-brand-cream-300 transition-colors"
               >
                 კატალოგი
               </Link>
               <Link
                 href="/#"
-                className="hover:text-brand-gold-400 transition-colors"
+                className="hover:text-brand-cream-300 transition-colors"
               >
                 ჩვენს შესახებ
               </Link>
@@ -120,9 +120,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <div className="header-gold-line" />
         </header>
 
-        <main className="flex-1 bg-brand-green-900">{children}</main>
+        <main className="flex-1 bg-[#f5f2e8]">{children}</main>
 
-        <footer id="contact" className="bg-brand-green-900">
+        <footer id="contact" className="bg-brand-green-700">
           <div className="header-gold-line" />
           <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
             <div className="grid gap-8 md:grid-cols-2 md:gap-10">

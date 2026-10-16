@@ -52,7 +52,7 @@ export default function ProductImageGallery({
               onClick={() => setSelected(i)}
               className={`relative shrink-0 w-16 h-16 rounded overflow-hidden border-2 transition-colors ${
                 i === selected
-                  ? "border-brand-gold-500"
+                  ? "border-brand-green-900"
                   : "border-transparent hover:border-brand-cream-300"
               }`}
             >

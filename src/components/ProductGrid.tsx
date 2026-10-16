@@ -25,10 +25,10 @@ export default function ProductGrid({
       <div className="mt-6 flex flex-wrap justify-center gap-2 sm:mt-10">
         <Link
           href="/"
-          className={`rounded-full px-3 py-1 text-xs font-bold transition-colors sm:px-4 sm:py-1.5 sm:text-sm border ${
+          className={`rounded-full px-3 py-1 text-xs font-medium transition-colors sm:px-4 sm:py-1.5 sm:text-sm border ${
             !category
-              ? "bg-brand-gold-500 text-brand-green-900 border-brand-gold-500"
-              : "bg-transparent text-brand-cream-300 border-brand-cream-300 hover:border-brand-gold-500 hover:text-brand-gold-400"
+              ? "bg-brand-green-900 text-white border-brand-green-900"
+              : "bg-transparent text-brand-green-900 border-brand-green-700 hover:bg-brand-green-900 hover:text-white hover:border-brand-green-900"
           }`}
         >
           ყველა
@@ -37,10 +37,10 @@ export default function ProductGrid({
           <Link
             key={cat}
             href={`/?category=${encodeURIComponent(cat)}`}
-            className={`rounded-full px-3 py-1 text-xs font-bold transition-colors sm:px-4 sm:py-1.5 sm:text-sm border   ${
+            className={`rounded-full px-3 py-1 text-xs font-medium transition-colors sm:px-4 sm:py-1.5 sm:text-sm border ${
               category === cat
-                ? "bg-brand-gold-500 text-brand-green-900 border-brand-gold-500"
-                : "bg-transparent text-brand-cream-300 border-brand-cream-300 hover:border-brand-gold-500 hover:text-brand-gold-400"
+                ? "bg-brand-green-900 text-white border-brand-green-900"
+                : "bg-transparent text-brand-green-900 border-brand-green-700 hover:bg-brand-green-900 hover:text-white hover:border-brand-green-900"
             }`}
           >
             {cat}
@@ -56,7 +56,7 @@ export default function ProductGrid({
       </div>
 
       {filtered.length === 0 && (
-        <p className="mt-16 text-center text-brand-cream-300">
+        <p className="mt-16 text-center text-brand-green-500">
           ამ კატეგორიაში პროდუქტი ვერ მოიძებნა.
         </p>
       )}
