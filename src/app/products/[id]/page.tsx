@@ -1,8 +1,10 @@
 import { Suspense } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProductById, getProducts } from "@/lib/products";
 import { BASE_URL, SITE_NAME } from "@/lib/constants";
+import ProductImageGallery from "@/components/ProductImageGallery";
 
 export async function generateStaticParams() {
   const products = await getProducts();
@@ -127,12 +129,16 @@ async function ProductContent({ params }: { params: Promise<{ id: string }> }) {
         </Link>
 
         <div className="mt-6 grid gap-6 sm:mt-8 sm:gap-8 md:grid-cols-2 md:gap-10">
-          {/* Image placeholder */}
-          <div className="relative aspect-[4/3] rounded-xl bg-brand-cream-100 flex items-center justify-center sm:aspect-square shadow-md">
-            <span className="text-4xl text-brand-cream-300 sm:text-5xl md:text-6xl">
-              {product.category}
-            </span>
-          </div>
+          {/* Product images */}
+          {product.images.length > 0 ? (
+            <ProductImageGallery images={product.images} name={product.name} category={product.category} />
+          ) : (
+            <div className="aspect-[4/3] rounded-lg bg-brand-cream-100 flex items-center justify-center sm:aspect-square">
+              <span className="text-4xl text-brand-cream-300 sm:text-5xl md:text-6xl">
+                {product.category}
+              </span>
+            </div>
+          )}
 
           {/* Details */}
           <div>
