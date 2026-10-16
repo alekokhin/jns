@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import ProductGrid from "@/components/ProductGrid";
-import WaveDivider from "@/components/WaveDivider";
 import { getProducts, getCategories } from "@/lib/products";
 import { SITE_DESCRIPTION } from "@/lib/constants";
 
@@ -22,9 +21,72 @@ export default async function Home() {
   return (
     <div className="relative min-h-screen overflow-hidden">
       {/* Decorative wave ribbons — background, centered vertically */}
-      <div className="absolute left-0 top-1/10 -translate-y-1/2 w-full">
-        <WaveDivider />
-      </div>
+     <svg
+  aria-hidden="true"
+  viewBox="0 0 1440 180"
+  preserveAspectRatio="none"
+  className="absolute"
+  style={{
+    display: "block",
+    width: "100%",
+    height: "240px",
+    pointerEvents: "none",
+  }}
+>
+  <defs>
+    {/* Metallic gold */}
+    <linearGradient id="wave-gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6F4B12" />
+      <stop offset="0.25" stop-color="#C99A33" />
+      <stop offset="0.5" stop-color="#F6E2A0" />
+      <stop offset="0.75" stop-color="#E3BE5E" />
+      <stop offset="1" stop-color="#9A6F1F" />
+    </linearGradient>
+
+    {/* Ruby red */}
+    <linearGradient id="wave-red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#7A0B12" />
+      <stop offset="0.35" stop-color="#B3141C" />
+      <stop offset="0.7"  stop-color="#E5473F" />
+      <stop offset="1"    stop-color="#7A0B12" />
+    </linearGradient>
+
+    {/* Emerald green */}
+    <linearGradient id="wave-green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#04211A" />
+      <stop offset="0.4"  stop-color="#14513A" />
+      <stop offset="0.7"  stop-color="#2E7A55" />
+      <stop offset="1"    stop-color="#0A3A28" />
+    </linearGradient>
+  </defs>
+
+  {/* Gold ribbon */}
+  <path
+    d="M0 85 C280 0 430 20 720 85
+       S1160 165 1440 35
+       L1440 55 C1160 185 1000 120 720 105
+       S280 20 0 105 Z"
+    fill="url(#wave-gold)"
+  />
+
+  {/* Burgundy ribbon (thinner) */}
+  <path
+    d="M0 94 C280 9 430 29 720 94
+       S1160 174 1440 44
+       L1440 54 C1160 184 1010 169 720 104
+       C430 39 280 19 0 104 Z"
+    fill="url(#wave-red)"
+  />
+
+  {/* Green ribbon (thinner) */}
+  <path
+    d="M0 103 C280 18 430 38 720 103
+       S1160 183 1440 53
+       L1440 61 C1160 191 1010 176 720 111
+       C430 46 280 26 0 111 Z"
+    fill="url(#wave-green)"
+  />
+</svg>
 
       {/* Content — above the wave background */}
       <div className="relative z-10 mx-auto max-w-6xl px-4 pt-10 pb-12 sm:px-6 sm:pt-14 sm:pb-16">
@@ -37,7 +99,13 @@ export default async function Home() {
           </p>
         </div>
 
-        <Suspense fallback={<div className="mt-10 text-center text-brand-cream-300">იტვირთება...</div>}>
+        <Suspense
+          fallback={
+            <div className="mt-10 text-center text-brand-cream-300">
+              იტვირთება...
+            </div>
+          }
+        >
           <ProductGrid products={products} categories={categories} />
         </Suspense>
       </div>
