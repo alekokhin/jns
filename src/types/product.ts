@@ -12,4 +12,5 @@ export interface Product {
   };
   material: string;
   inStock: boolean;
+  pricePerSqm?: boolean;
 }

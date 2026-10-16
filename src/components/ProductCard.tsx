@@ -27,7 +27,7 @@ export default function ProductCard({ product }: { product: Product }) {
           {product.material}
         </p>
         <p className="mt-2 font-medium text-brand-gold-700">
-          {product.price.toLocaleString()} ₾
+          {product.price.toLocaleString()} ₾{product.pricePerSqm && "/მ²"}
         </p>
       </div>
     </Link>

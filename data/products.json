@@ -22,6 +22,18 @@
     "inStock": true
   },
   {
+    "id": "kitchen",
+    "name": "ხავერდის სავარძელი",
+    "category": "სამზარეულო",
+    "price": 649,
+    "description": "ფუფუნების ხავერდის სავარძელი კაკლის ხის ფეხებით. ღრმა სავარძლის ბალიში და საყრდენი ზურგი მაქსიმალური კომფორტისთვის. ხელმისაწვდომია მუქ მწვანე ფერში.",
+    "image": "/images/velvet-armchair.jpg",
+    "dimensions": { "width": 78, "height": 85, "depth": 82 },
+    "material": "ხავერდი / კაკალი",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
     "id": "walnut-bookshelf",
     "name": "კაკლის წიგნის თარო",
     "category": "შესანახი",
