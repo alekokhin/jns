@@ -68,5 +68,11 @@ body {
 
 .header-gold-line {
   height: 3px;
-  background: var(--color-brand-gold-500);
-}
+ background: linear-gradient(
+    90deg,
+    transparent 0%,
+    #b8860b 15%,
+    #d4af37 50%,
+    #b8860b 85%,
+    transparent 100%
+  );}
