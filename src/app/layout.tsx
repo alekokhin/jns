@@ -132,16 +132,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                   <div>
                     <dt className="font-medium text-brand-gold-400">ტელეფონი</dt>
                     <dd className="mt-1">
-                      <a href="tel:+995555000000" className="text-brand-cream-300 hover:text-white transition-colors">
-                        +995 555 000 000
+                      <a href="tel:+995595745745" className="text-brand-cream-300 hover:text-white transition-colors">
+                        +995 595 745 745
                       </a>
                     </dd>
                   </div>
                   <div>
                     <dt className="font-medium text-brand-gold-400">ელ. ფოსტა</dt>
                     <dd className="mt-1">
-                      <a href="mailto:info@jns.ge" className="text-brand-cream-300 hover:text-white transition-colors">
-                        info@jns.ge
+                      <a href="mailto:groupjns24@gmail.com" className="text-brand-cream-300 hover:text-white transition-colors">
+                       groupjns24@gmail.com
                       </a>
                     </dd>
                   </div>
@@ -151,7 +151,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               {/* Map */}
               <div className="aspect-[4/3] sm:aspect-video overflow-hidden rounded-lg">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1341.0329699482302!2d41.64364508947024!3d41.62984131060242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ska!2sge!4v1791881244520!5m2!1ska!2sge"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921.2643809026732!2d41.642209954998926!3d41.62943514303251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406789a918fca9a1%3A0xecc367d4d0720540!2sJNS%20GROUP!5e1!3m2!1ska!2sge!4v1792146050377!5m2!1ska!2sge"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
@@ -192,7 +192,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                   <svg className="size-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15.2a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.75a8.18 8.18 0 0 0 4.76 1.52V6.84a4.84 4.84 0 0 1-1-.15z"/></svg>
                 </a>
                 <a
-                  href="https://wa.me/995555000000"
+                  href="https://wa.me/995595745745"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="WhatsApp"

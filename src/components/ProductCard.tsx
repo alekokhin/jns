@@ -12,9 +12,9 @@ export default function ProductCard({ product }: { product: Product }) {
   return (
     <Link
       href={`/products/${product.id}`}
-      className="group block rounded-xl bg-white overflow-hidden shadow-md transition-shadow hover:shadow-xl"
+      className="group block rounded-xl bg-brand-cream-100 shadow-md transition-shadow hover:shadow-xl"
     >
-      <div className="relative aspect-[4/3] bg-brand-cream-100">
+      <div className="relative aspect-[4/3] bg-brand-cream-100 m-3 rounded-lg overflow-hidden">
         {hasImage ? (
           <Image
             src={product.images[0]}

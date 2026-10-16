@@ -178,7 +178,7 @@ async function ProductContent({ params }: { params: Promise<{ id: string }> }) {
 
             {product.inStock ? (
               <a
-                href="tel:+995555000000"
+                href="tel:+995595745745"
                 className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-brand-gold-500 px-6 py-3 text-sm font-medium text-brand-green-900 transition-colors hover:bg-brand-gold-600 sm:mt-8"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-4">
