@@ -25,7 +25,7 @@ export default async function Home() {
         aria-hidden="true"
         viewBox="0 0 1440 180"
         preserveAspectRatio="none"
-        className="absolute block w-full h-[120px] sm:h-[180px] md:h-[240px] pointer-events-none"
+        className="absolute top-0 md:top-[-30px] block w-full h-[120px] sm:h-[180px] md:h-[240px] pointer-events-none"
       >
         <defs>
           {/* Metallic gold */}
