@@ -83,27 +83,27 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         />
       </head>
       <body className="min-h-full flex flex-col font-[family-name:var(--font-georgian)]">
-        <header className="relative border-b border-brand-cream-200 bg-white">
-          <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 sm:py-4">
+        <header className="relative bg-brand-green-900">
+          <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 sm:py-2">
             <Link
               href="/"
-              className="flex items-center gap-2 text-lg font-bold tracking-tight text-brand-green-700 sm:text-xl"
+              className="flex items-center gap-2"
             >
               <Image
                 src="/jns-logo.png"
                 alt="JNS ავეჯის ლოგო"
-                width={40}
-                height={40}
+                width={52}
+                height={52}
                 className="rounded-full"
               />
             </Link>
 
             {/* Desktop nav */}
-            <div className="hidden md:flex gap-6 text-sm font-medium text-brand-green-600">
-              <Link href="/" className="hover:text-brand-gold-600">
+            <div className="hidden md:flex gap-6 text-sm font-medium text-brand-cream-300">
+              <Link href="/" className="hover:text-brand-gold-400 transition-colors">
                 კატალოგი
               </Link>
-              <Link href="/#" className="hover:text-brand-gold-600">
+              <Link href="/#" className="hover:text-brand-gold-400 transition-colors">
                 ჩვენს შესახებ
               </Link>
               <ScrollToContact />
@@ -112,11 +112,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             {/* Mobile nav */}
             <MobileNav />
           </nav>
+          <div className="header-gold-line" />
         </header>
 
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 bg-brand-green-900">{children}</main>
 
-        <footer id="contact" className="border-t border-brand-cream-200 bg-brand-green-900">
+        <footer id="contact" className="bg-brand-green-900">
+          <div className="header-gold-line" />
           <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
             <div className="grid gap-8 md:grid-cols-2 md:gap-10">
               {/* Contact info */}

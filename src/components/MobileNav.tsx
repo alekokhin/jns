@@ -10,7 +10,7 @@ export default function MobileNav() {
     <div className="md:hidden">
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center justify-center w-10 h-10 text-brand-green-700"
+        className="flex items-center justify-center w-10 h-10 text-brand-cream-300"
         aria-label={open ? "მენიუს დახურვა" : "მენიუს გახსნა"}
       >
         {open ? (
@@ -25,12 +25,12 @@ export default function MobileNav() {
       </button>
 
       {open && (
-        <div className="absolute left-0 right-0 top-full border-b border-brand-cream-200 bg-white z-50">
-          <div className="flex flex-col px-6 py-4 gap-4 text-sm font-medium text-brand-green-600">
-            <Link href="/" onClick={() => setOpen(false)} className="hover:text-brand-gold-600">
+        <div className="absolute left-0 right-0 top-full border-b border-brand-green-700 bg-brand-green-900 z-50">
+          <div className="flex flex-col px-6 py-4 gap-4 text-sm font-medium text-brand-cream-300">
+            <Link href="/" onClick={() => setOpen(false)} className="hover:text-brand-gold-400 transition-colors">
               კატალოგი
             </Link>
-            <Link href="/#" onClick={() => setOpen(false)} className="hover:text-brand-gold-600">
+            <Link href="/#" onClick={() => setOpen(false)} className="hover:text-brand-gold-400 transition-colors">
               ჩვენს შესახებ
             </Link>
             <button
@@ -38,7 +38,7 @@ export default function MobileNav() {
                 setOpen(false);
                 document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
               }}
-              className="text-left hover:text-brand-gold-600"
+              className="text-left hover:text-brand-gold-400 transition-colors"
             >
               კონტაქტი
             </button>
