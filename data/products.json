@@ -5,7 +5,7 @@
     "category": "მაგიდები",
     "price": 1299,
     "description": "მუხის მასიური სასადილო მაგიდა ბუნებრივი დამუშავებით. კომფორტულად იტევს 8 ადამიანს. ხელნაკეთი, ტრადიციული შეერთების ტექნიკით, გამძლეობისთვის.",
-    "image": "/images/oak-dining-table.jpg",
+    "images": ["https://shop.glimtrex.ge/media/image/87/7f/70/muxis-magida.jpg","https://eurowood.ge/cdn/shop/files/WhatsApp_Image_2026-04-08_at_12.03.39_1.jpg?v=1775638886"],
     "dimensions": { "width": 200, "height": 75, "depth": 100 },
     "material": "მასიური მუხა",
     "inStock": true
@@ -16,7 +16,7 @@
     "category": "სკამები",
     "price": 649,
     "description": "ფუფუნების ხავერდის სავარძელი კაკლის ხის ფეხებით. ღრმა სავარძლის ბალიში და საყრდენი ზურგი მაქსიმალური კომფორტისთვის. ხელმისაწვდომია მუქ მწვანე ფერში.",
-    "image": "/images/velvet-armchair.jpg",
+    "images": ["https://online.bibishop.ge/eCommerce/Products/2EC903E51E/Images/103AB9A6DA0945B49735221D86929CEE_ZW063-086-2.JPG?w=110"],
     "dimensions": { "width": 78, "height": 85, "depth": 82 },
     "material": "ხავერდი / კაკალი",
     "inStock": true
@@ -27,7 +27,7 @@
     "category": "სამზარეულო",
     "price": 649,
     "description": "ფუფუნების ხავერდის სავარძელი კაკლის ხის ფეხებით. ღრმა სავარძლის ბალიში და საყრდენი ზურგი მაქსიმალური კომფორტისთვის. ხელმისაწვდომია მუქ მწვანე ფერში.",
-    "image": "/images/velvet-armchair.jpg",
+    "images": ["https://online.bibishop.ge/eCommerce/Products/CC8E9A3DA5/Images/663DAEEF999E401293C0F5FA6C7B2A2C_ZW063-090-1.jpg?w=580"],
     "dimensions": { "width": 78, "height": 85, "depth": 82 },
     "material": "ხავერდი / კაკალი",
     "inStock": true,
@@ -39,7 +39,7 @@
     "category": "შესანახი",
     "price": 899,
     "description": "ხუთ-თაროიანი კაკლის წიგნის კარადა რეგულირებადი თაროებით. სუფთა, თანამედროვე ხაზები, რომელიც ნებისმიერ საცხოვრებელ სივრცეს ავსებს. კედელზე დამაგრებადი სტაბილურობისთვის.",
-    "image": "/images/walnut-bookshelf.jpg",
+    "images": ["https://sonic.ge/dyn/VNYmM0wlugn818xXPCEeo2_3Xqr1vjzmL3_d99r7Pz8/rs:fit:720:0/plain/images/products/original/1f211f07-8c8e-4e40-9be3-54ac46275710.jpg"],
     "dimensions": { "width": 90, "height": 180, "depth": 35 },
     "material": "კაკლის შპონი",
     "inStock": true
@@ -50,7 +50,7 @@
     "category": "დივნები",
     "price": 2199,
     "description": "სამადგილიანი დივანი იტალიური ნატურალური ტყავით. მასიური წიფლის ჩარჩო მაღალი ელასტიურობის ქაფის ბალიშებით. დროთა განმავლობაში უფრო ლამაზი ხდება.",
-    "image": "/images/leather-sofa.jpg",
+    "images": ["https://sonic.ge/dyn/1IXhNJXBRcwDD8EcLzGY-bwpFdiv4f1o4thS3_CWJmw/rs:fit:720:0/plain/images/products/original/5c3f72fb-694c-4c3f-af3c-5a4c8bd549af.jpg","https://www.kanasfurniture.com/icms/upload/7396ed00240611f082ee7705e16b2204/pic/%E4%BA%A7%E5%93%81%E7%AE%A1%E7%90%86-%E4%BA%A7%E5%93%81%E5%9B%BE%E7%89%87/8f725270516b11f0ad855f0e8eb18a8e/Directory/S-1168_1750818285847.webp"],
     "dimensions": { "width": 220, "height": 85, "depth": 95 },
     "material": "იტალიური ტყავი / წიფელი",
     "inStock": false
@@ -61,7 +61,7 @@
     "category": "მაგიდები",
     "price": 749,
     "description": "ელეგანტური ჟურნალის მაგიდა კარარის მარმარილოს ზედაპირით და ბრინჯაოს ფეხებით. გამორჩეული ნაწარმი ნებისმიერი თანამედროვე მისაღები ოთახისთვის.",
-    "image": "/images/marble-coffee-table.jpg",
+    "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST4naG2nvQHoaj9dJ84-u96IJhZWbT2PEikmca2UCqNZJ6EYJRZTfvS3A&s=10","https://bsg-i.nbxc.com/product/a3/79/a4/783263fd123ec991410201793d.png@4e_500w_500h.src%7C95Q.webp"],
     "dimensions": { "width": 120, "height": 40, "depth": 60 },
     "material": "მარმარილო / ბრინჯაო",
     "inStock": true
@@ -72,7 +72,7 @@
     "category": "საძინებელი",
     "price": 599,
     "description": "სკანდინავიური სტილის ორადგილიანი საწოლის ჩარჩო მასიური ფიჭვისგან. ლატოფქსის ბაზა შედის კომპლექტში. მინიმალური აწყობა, სუფთა და ბუნებრივი ესთეტიკა.",
-    "image": "/images/pine-bed-frame.jpg",
+    "images": ["https://jysk.ge/upload/products/78877DC234/3650219_36a2830c.jpeg","https://isurve.ge/cdn/shop/products/sawoli1-Copy-min_1200x1200.jpg?v=1667504056","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQawjQOSUcgKecCXaaP18wMZOUmsUtfxlpWxHwM5ZiS8XDwjC7nyZzx1FE&s=10"],
     "dimensions": { "width": 160, "height": 35, "depth": 200 },
     "material": "მასიური ფიჭვი",
     "inStock": true

@@ -1,16 +1,36 @@
+"use client";
+
+import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Product } from "@/types/product";
 
 export default function ProductCard({ product }: { product: Product }) {
+  const [imgError, setImgError] = useState(false);
+  const hasImage = product.images[0] && !imgError;
+
   return (
     <Link
       href={`/products/${product.id}`}
       className="group block rounded-lg border border-brand-cream-200 bg-white overflow-hidden transition-shadow hover:shadow-lg"
     >
-      <div className="aspect-[4/3] bg-brand-cream-100 flex items-center justify-center">
-        <span className="text-4xl text-brand-cream-300">
-          {getCategoryIcon(product.category)}
-        </span>
+      <div className="relative aspect-[4/3] bg-brand-cream-100">
+        {hasImage ? (
+          <Image
+            src={product.images[0]}
+            alt={product.name}
+            fill
+            className="object-cover"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            onError={() => setImgError(true)}
+          />
+        ) : (
+          <div className="flex items-center justify-center h-full">
+            <span className="text-4xl text-brand-cream-300">
+              {getCategoryIcon(product.category)}
+            </span>
+          </div>
+        )}
       </div>
       <div className="p-4">
         <div className="flex items-start justify-between gap-2">
