@@ -30,27 +30,27 @@ export default async function Home() {
         <defs>
           {/* Metallic gold */}
           <linearGradient id="wave-gold" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0" stop-color="#6F4B12" />
-            <stop offset="0.25" stop-color="#C99A33" />
-            <stop offset="0.5" stop-color="#F6E2A0" />
-            <stop offset="0.75" stop-color="#E3BE5E" />
-            <stop offset="1" stop-color="#9A6F1F" />
+            <stop offset="0" stopColor="#6F4B12" />
+            <stop offset="0.25" stopColor="#C99A33" />
+            <stop offset="0.5" stopColor="#F6E2A0" />
+            <stop offset="0.75" stopColor="#E3BE5E" />
+            <stop offset="1" stopColor="#9A6F1F" />
           </linearGradient>
 
           {/* Ruby red */}
           <linearGradient id="wave-red" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0" stop-color="#7A0B12" />
-            <stop offset="0.35" stop-color="#B3141C" />
-            <stop offset="0.7" stop-color="#E5473F" />
-            <stop offset="1" stop-color="#7A0B12" />
+            <stop offset="0" stopColor="#7A0B12" />
+            <stop offset="0.35" stopColor="#B3141C" />
+            <stop offset="0.7" stopColor="#E5473F" />
+            <stop offset="1" stopColor="#7A0B12" />
           </linearGradient>
 
           {/* Emerald green */}
           <linearGradient id="wave-green" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0" stop-color="#04211A" />
-            <stop offset="0.4" stop-color="#14513A" />
-            <stop offset="0.7" stop-color="#2E7A55" />
-            <stop offset="1" stop-color="#0A3A28" />
+            <stop offset="0" stopColor="#04211A" />
+            <stop offset="0.4" stopColor="#14513A" />
+            <stop offset="0.7" stopColor="#2E7A55" />
+            <stop offset="1" stopColor="#0A3A28" />
           </linearGradient>
         </defs>
 
