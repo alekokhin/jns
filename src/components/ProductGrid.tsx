@@ -22,7 +22,8 @@ export default function ProductGrid({
   return (
     <>
       {/* Category filter */}
-      <div className="mt-1 flex flex-wrap justify-center gap-2 ">
+      <div className="sticky top-[60px] sm:top-[84px] md:top-[100px] z-50 bg-brand-green-900 py-3 -mx-4 px-4 sm:-mx-6 sm:px-6">
+        <div className="flex flex-wrap justify-center gap-2">
         <Link
           href="/"
           className={`rounded-full px-3 py-1 text-xs font-bold transition-colors sm:px-4 sm:py-1.5 sm:text-sm border ${
@@ -46,6 +47,7 @@ export default function ProductGrid({
             {cat}
           </Link>
         ))}
+        </div>
       </div>
 
       {/* Product grid */}

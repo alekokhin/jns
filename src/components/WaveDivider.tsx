@@ -77,7 +77,7 @@ export default function WaveDivider({
   return (
     <div
       ref={boxRef}
-      className="relative top-0 md:top-[0px] block w-full h-[80px] sm:h-[100px] md:h-[120px] pointer-events-none"
+      className="sticky top-[-16px] z-45 block w-full h-[80px] sm:h-[100px] md:h-[120px] pointer-events-none bg-brand-green-900"
     >
       {w > 0 && (
         <svg
