@@ -22,7 +22,7 @@ export default function ProductGrid({
   return (
     <>
       {/* Category filter */}
-      <div className="mt-6 flex flex-wrap justify-center gap-2 sm:mt-10">
+      <div className="mt-1 flex flex-wrap justify-center gap-2 ">
         <Link
           href="/"
           className={`rounded-full px-3 py-1 text-xs font-bold transition-colors sm:px-4 sm:py-1.5 sm:text-sm border ${
