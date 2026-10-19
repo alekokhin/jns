@@ -12,9 +12,9 @@ export default function ProductCard({ product }: { product: Product }) {
   return (
     <Link
       href={`/products/${product.id}`}
-      className="group block rounded-lg border border-brand-cream-200 bg-white overflow-hidden transition-shadow hover:shadow-lg"
+      className="group block rounded-xl bg-brand-cream-100 shadow-md transition-shadow hover:shadow-xl"
     >
-      <div className="relative aspect-[4/3] bg-brand-cream-100">
+      <div className="relative aspect-[4/3] bg-brand-cream-100 m-3 rounded-lg overflow-hidden">
         {hasImage ? (
           <Image
             src={product.images[0]}
@@ -32,23 +32,31 @@ export default function ProductCard({ product }: { product: Product }) {
           </div>
         )}
       </div>
+
+      {/* Content area */}
       <div className="p-4">
-        <div className="flex items-start justify-between gap-2">
-          <h3 className="font-semibold text-brand-green-900 group-hover:text-brand-green-600">
-            {product.name}
-          </h3>
-          {!product.inStock && (
-            <span className="shrink-0 rounded bg-brand-red-100 px-2 py-0.5 text-xs text-brand-red-700">
-              არ არის მარაგში
-            </span>
-          )}
-        </div>
+        <h3 className="font-semibold text-brand-green-900 group-hover:text-brand-green-600">
+          {product.name}
+        </h3>
+        {!product.inStock && (
+          <span className="mt-1 inline-block rounded bg-brand-red-100 px-2 py-0.5 text-xs text-brand-red-700">
+            არ არის მარაგში
+          </span>
+        )}
         <p className="mt-1 text-sm text-brand-green-500">
           {product.material}
         </p>
-        <p className="mt-2 font-medium text-brand-gold-700">
-          {product.price.toLocaleString()} ₾{product.pricePerSqm && "/მ²"}
-        </p>
+        <div className="mt-3 flex items-center justify-between">
+          <p className="font-semibold text-brand-gold-600">
+            {product.price.toLocaleString()} ₾{product.pricePerSqm && "/მ²"}
+          </p>
+          {/* Arrow button */}
+          <span className="flex items-center justify-center size-9 rounded-full border border-brand-gold-500 text-brand-gold-500 group-hover:bg-brand-gold-500 group-hover:text-white transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="size-4">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+            </svg>
+          </span>
+        </div>
       </div>
     </Link>
   );

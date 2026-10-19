@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import ProductGrid from "@/components/ProductGrid";
 import { getProducts, getCategories } from "@/lib/products";
 import { SITE_DESCRIPTION } from "@/lib/constants";
+import WaveDivider from "@/components/WaveDivider";
 
 export const metadata: Metadata = {
   title: "კატალოგი",
@@ -19,19 +20,23 @@ export default async function Home() {
   ]);
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
-      <div className="text-center">
-        <h1 className="text-2xl font-bold tracking-tight text-brand-green-900 sm:text-3xl md:text-4xl">
-          ჩვენი კოლექცია
-        </h1>
-        <p className="mt-2 text-base text-brand-green-600 sm:mt-3 sm:text-lg">
-          შერჩეული ავეჯი ყველა ოთახისთვის
-        </p>
-      </div>
+    <div className="relative min-h-screen overflow-hidden">
+      {/* Decorative wave ribbons — background, centered vertically */}
 
-      <Suspense fallback={<div className="mt-10 text-center text-brand-cream-300">იტვირთება...</div>}>
-        <ProductGrid products={products} categories={categories} />
-      </Suspense>
+      <WaveDivider text="ჩვენი კოლექცია" />
+
+      {/* Content — above the wave background */}
+      <div className="relative z-10 mx-auto max-w-6xl px-4 pt-0 pb-12 sm:px-6 sm:pt-0 sm:pb-16">
+        <Suspense
+          fallback={
+            <div className="mt-10 text-center text-brand-cream-300">
+              იტვირთება...
+            </div>
+          }
+        >
+          <ProductGrid products={products} categories={categories} />
+        </Suspense>
+      </div>
     </div>
   );
 }

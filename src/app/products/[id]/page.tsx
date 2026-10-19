@@ -119,10 +119,11 @@ async function ProductContent({ params }: { params: Promise<{ id: string }> }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {/* Product content on dark green */}
       <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-12">
         <Link
           href="/"
-          className="inline-flex items-center gap-1 text-sm text-brand-green-600 hover:text-brand-gold-600"
+          className="inline-flex items-center gap-1 text-sm text-brand-cream-300 hover:text-brand-gold-400 transition-colors"
         >
           &larr; კატალოგში დაბრუნება
         </Link>
@@ -141,34 +142,34 @@ async function ProductContent({ params }: { params: Promise<{ id: string }> }) {
 
           {/* Details */}
           <div>
-            <p className="text-sm font-medium text-brand-gold-600">
+            <p className="text-sm font-medium text-brand-gold-400">
               {product.category}
             </p>
-            <h1 className="mt-1 text-2xl font-bold text-brand-green-900 sm:text-3xl">
+            <h1 className="mt-1 text-2xl font-bold text-white sm:text-3xl">
               {product.name}
             </h1>
-            <p className="mt-3 text-xl font-semibold text-brand-gold-700 sm:mt-4 sm:text-2xl">
+            <p className="mt-3 text-xl font-semibold text-brand-gold-500 sm:mt-4 sm:text-2xl">
               {product.price.toLocaleString()} ₾{product.pricePerSqm && "/მ²"}
             </p>
 
             {!product.inStock && (
-              <p className="mt-2 text-sm font-medium text-brand-red-700">
+              <p className="mt-2 text-sm font-medium text-brand-red-100">
                 ამჟამად არ არის მარაგში
               </p>
             )}
 
-            <p className="mt-4 text-sm leading-relaxed text-brand-green-600 sm:mt-6 sm:text-base">
+            <p className="mt-4 text-sm leading-relaxed text-brand-cream-300 sm:mt-6 sm:text-base">
               {product.description}
             </p>
 
             <dl className="mt-6 space-y-3 text-sm sm:mt-8">
               <div className="flex gap-2">
-                <dt className="font-medium text-brand-green-500 w-20 shrink-0 sm:w-28">მასალა</dt>
-                <dd className="text-brand-green-900">{product.material}</dd>
+                <dt className="font-medium text-brand-gold-400 w-20 shrink-0 sm:w-28">მასალა</dt>
+                <dd className="text-brand-cream-200">{product.material}</dd>
               </div>
               <div className="flex gap-2">
-                <dt className="font-medium text-brand-green-500 w-20 shrink-0 sm:w-28">ზომები</dt>
-                <dd className="text-brand-green-900">
+                <dt className="font-medium text-brand-gold-400 w-20 shrink-0 sm:w-28">ზომები</dt>
+                <dd className="text-brand-cream-200">
                   {product.dimensions.width} x {product.dimensions.depth} x{" "}
                   {product.dimensions.height} სმ (ს x ღ x მ)
                 </dd>
@@ -177,8 +178,8 @@ async function ProductContent({ params }: { params: Promise<{ id: string }> }) {
 
             {product.inStock ? (
               <a
-                href="tel:+995555000000"
-                className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-brand-green-700 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-brand-green-600 sm:mt-8"
+                href="tel:+995595745745"
+                className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-brand-gold-500 px-6 py-3 text-sm font-medium text-brand-green-900 transition-colors hover:bg-brand-gold-600 sm:mt-8"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-4">
                   <path fillRule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.958 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clipRule="evenodd" />
@@ -187,7 +188,7 @@ async function ProductContent({ params }: { params: Promise<{ id: string }> }) {
               </a>
             ) : (
               <button
-                className="mt-6 w-full rounded-lg bg-brand-green-700 px-6 py-3 text-sm font-medium text-white opacity-50 cursor-not-allowed sm:mt-8"
+                className="mt-6 w-full rounded-lg bg-brand-gold-500 px-6 py-3 text-sm font-medium text-brand-green-900 opacity-40 cursor-not-allowed sm:mt-8"
                 disabled
               >
                 არ არის მარაგში
