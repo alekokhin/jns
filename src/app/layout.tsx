@@ -186,7 +186,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <div className="mt-8 border-t border-brand-green-700 pt-6 sm:mt-10">
               <div className="flex justify-center gap-4 mb-4">
                 <a
-                  href="https://www.facebook.com/"
+                  href="https://www.facebook.com/profile.php?id=61595375789935"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Facebook"
@@ -201,7 +201,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                   </svg>
                 </a>
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/groupjns/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
