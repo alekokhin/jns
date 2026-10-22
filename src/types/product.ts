@@ -5,7 +5,7 @@ export interface Product {
   price: number;
   description: string;
   images: string[];
-  dimensions: {
+  dimensions?: {
     width: number;
     height: number;
     depth: number;

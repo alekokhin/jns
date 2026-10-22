@@ -1,80 +1,340 @@
 [
   {
-    "id": "oak-dining-table",
-    "name": "მუხის სასადილო მაგიდა",
-    "category": "მაგიდები",
-    "price": 1299,
-    "description": "მუხის მასიური სასადილო მაგიდა ბუნებრივი დამუშავებით. კომფორტულად იტევს 8 ადამიანს. ხელნაკეთი, ტრადიციული შეერთების ტექნიკით, გამძლეობისთვის.",
-    "images": ["https://shop.glimtrex.ge/media/image/87/7f/70/muxis-magida.jpg","https://eurowood.ge/cdn/shop/files/WhatsApp_Image_2026-04-08_at_12.03.39_1.jpg?v=1775638886"],
-    "dimensions": { "width": 200, "height": 75, "depth": 100 },
-    "material": "მასიური მუხა",
-    "inStock": true
+    "id": "3f8d9a2b-5c1e-4f7a-9b3d-6e8a2c4f1d9b",
+    "name": "საწოლი",
+    "category": "საძინებელი",
+    "price": 1300,
+    "description": "ნაცრისფერი ქსოვილით მოპირკეთებული ორსაწოლიანი საწოლი მაღალი, რბილი თავით. ღილებით გაფორმებული დიზაინი  ელეგანტურ იერს სძენს. ერთ საწოლიანი 350ლარიდან და ორსაწოლიანი 700 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792395159/%D0%9C%D1%80%D0%B0%D0%BC%D0%BE%D1%80%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D0%BB_%D0%B8_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.png"
+    ],
+    "material": "თურქული ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
   },
   {
-    "id": "velvet-armchair",
-    "name": "ხავერდის სავარძელი",
-    "category": "სკამები",
-    "price": 649,
-    "description": "ფუფუნების ხავერდის სავარძელი კაკლის ხის ფეხებით. ღრმა სავარძლის ბალიში და საყრდენი ზურგი მაქსიმალური კომფორტისთვის. ხელმისაწვდომია მუქ მწვანე ფერში.",
-    "images": ["https://online.bibishop.ge/eCommerce/Products/2EC903E51E/Images/103AB9A6DA0945B49735221D86929CEE_ZW063-086-2.JPG?w=110"],
-    "dimensions": { "width": 78, "height": 85, "depth": 82 },
-    "material": "ხავერდი / კაკალი",
-    "inStock": true
-  },
-  {
-    "id": "kitchen",
-    "name": "ხავერდის სავარძელი",
-    "category": "სამზარეულო",
-    "price": 649,
-    "description": "ფუფუნების ხავერდის სავარძელი კაკლის ხის ფეხებით. ღრმა სავარძლის ბალიში და საყრდენი ზურგი მაქსიმალური კომფორტისთვის. ხელმისაწვდომია მუქ მწვანე ფერში.",
-    "images": ["https://online.bibishop.ge/eCommerce/Products/CC8E9A3DA5/Images/663DAEEF999E401293C0F5FA6C7B2A2C_ZW063-090-1.jpg?w=580"],
-    "dimensions": { "width": 78, "height": 85, "depth": 82 },
-    "material": "ხავერდი / კაკალი",
+    "id": "7a4c6e9d-2b8f-4d1a-8c5e-9f3b7a2d6c8e",
+    "name": "საწოლი",
+    "category": "საძინებელი",
+    "price": 2500,
+    "description": " საძინებლის კომპლექტი ხისფერი და მუქი ნაცრისფერი დიზაინით. მოიცავს საწოლს რბილი საზურგით, ორ ტუმბოსა და ზედა სათავსოებს. პრაქტიკული გადაწყვეტაა სივრცის ეფექტურად გამოსაყენებლად. ერთ საწოლიანი 350ლარიდან/ და ორსაწოლიანი 700 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792398102/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80_%D0%B1%D0%B5%D0%B7_%D0%B2%D0%B8%D1%81%D1%8F%D1%89%D0%B5%D0%B3%D0%BE_%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8F.png"
+    ],
+    "material": "თურქული ლამინატი",
     "inStock": true,
     "pricePerSqm": true
   },
   {
-    "id": "walnut-bookshelf",
-    "name": "კაკლის წიგნის თარო",
-    "category": "შესანახი",
-    "price": 899,
-    "description": "ხუთ-თაროიანი კაკლის წიგნის კარადა რეგულირებადი თაროებით. სუფთა, თანამედროვე ხაზები, რომელიც ნებისმიერ საცხოვრებელ სივრცეს ავსებს. კედელზე დამაგრებადი სტაბილურობისთვის.",
-    "images": ["https://sonic.ge/dyn/VNYmM0wlugn818xXPCEeo2_3Xqr1vjzmL3_d99r7Pz8/rs:fit:720:0/plain/images/products/original/1f211f07-8c8e-4e40-9be3-54ac46275710.jpg"],
-    "dimensions": { "width": 90, "height": 180, "depth": 35 },
-    "material": "კაკლის შპონი",
-    "inStock": true
-  },
-  {
-    "id": "leather-sofa",
-    "name": "ტყავის დივანი",
-    "category": "დივნები",
-    "price": 2199,
-    "description": "სამადგილიანი დივანი იტალიური ნატურალური ტყავით. მასიური წიფლის ჩარჩო მაღალი ელასტიურობის ქაფის ბალიშებით. დროთა განმავლობაში უფრო ლამაზი ხდება.",
-    "images": ["https://sonic.ge/dyn/1IXhNJXBRcwDD8EcLzGY-bwpFdiv4f1o4thS3_CWJmw/rs:fit:720:0/plain/images/products/original/5c3f72fb-694c-4c3f-af3c-5a4c8bd549af.jpg","https://www.kanasfurniture.com/icms/upload/7396ed00240611f082ee7705e16b2204/pic/%E4%BA%A7%E5%93%81%E7%AE%A1%E7%90%86-%E4%BA%A7%E5%93%81%E5%9B%BE%E7%89%87/8f725270516b11f0ad855f0e8eb18a8e/Directory/S-1168_1750818285847.webp"],
-    "dimensions": { "width": 220, "height": 85, "depth": 95 },
-    "material": "იტალიური ტყავი / წიფელი",
-    "inStock": false
-  },
-  {
-    "id": "marble-coffee-table",
-    "name": "მარმარილოს ჟურნალის მაგიდა",
-    "category": "მაგიდები",
-    "price": 749,
-    "description": "ელეგანტური ჟურნალის მაგიდა კარარის მარმარილოს ზედაპირით და ბრინჯაოს ფეხებით. გამორჩეული ნაწარმი ნებისმიერი თანამედროვე მისაღები ოთახისთვის.",
-    "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST4naG2nvQHoaj9dJ84-u96IJhZWbT2PEikmca2UCqNZJ6EYJRZTfvS3A&s=10","https://bsg-i.nbxc.com/product/a3/79/a4/783263fd123ec991410201793d.png@4e_500w_500h.src%7C95Q.webp"],
-    "dimensions": { "width": 120, "height": 40, "depth": 60 },
-    "material": "მარმარილო / ბრინჯაო",
-    "inStock": true
-  },
-  {
-    "id": "pine-bed-frame",
-    "name": "ფიჭვის საწოლის ჩარჩო",
+    "id": "5b2e8f4a-9c6d-4a3b-7e9f-1d4c8a6b3e5d",
+    "name": "საწოლი, ტუმბო 2 ცალი",
     "category": "საძინებელი",
-    "price": 599,
-    "description": "სკანდინავიური სტილის ორადგილიანი საწოლის ჩარჩო მასიური ფიჭვისგან. ლატოფქსის ბაზა შედის კომპლექტში. მინიმალური აწყობა, სუფთა და ბუნებრივი ესთეტიკა.",
-    "images": ["https://jysk.ge/upload/products/78877DC234/3650219_36a2830c.jpeg","https://isurve.ge/cdn/shop/products/sawoli1-Copy-min_1200x1200.jpg?v=1667504056","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQawjQOSUcgKecCXaaP18wMZOUmsUtfxlpWxHwM5ZiS8XDwjC7nyZzx1FE&s=10"],
-    "dimensions": { "width": 160, "height": 35, "depth": 200 },
-    "material": "მასიური ფიჭვი",
-    "inStock": true
+    "price": 1200,
+    "description": "საწოლი ხისფერი ჩარჩოთი და რბილი, ვერტიკალურად დაყოფილი საზურგით. კომპლექტს ახლავს საწოლთან შეხამებული ტუმბო თეთრი უჯრებით. ერთ საწოლიანი 350ლარიდან/ და ორსაწოლიანი 700 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792398639/%D0%AD%D0%BB%D0%B5%D0%B3%D0%B0%D0%BD%D1%82%D0%BD%D0%B0%D1%8F_%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F_%D1%81_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%BC_%D0%BC%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD%D0%BE%D0%BC.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "9d7f3a2c-6e4b-4d8a-5f9c-2b7e4a1d8c6f",
+    "name": "საწოლი",
+    "category": "საძინებელი",
+    "price": 350,
+    "description": "საწოლი რბილი, მუქი საზურგით, გარშემო განთავსებული თეთრი კარადებითა და ტუმბოებით. ჩაშენებული განათება და სათავსოები საძინებელს კომფორტულსა და პრაქტიკულს ხდის. ერთ საწოლიანი 350ლარიდან/ და ორსაწოლიანი 700 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792398834/%D0%91%D0%B5%D0%BB%D0%B0%D1%8F_%D0%B2%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C_%D0%B8_%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BA%D1%82%D0%BD%D0%B0%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D1%8F.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "2c5a8f4d-9b3e-4a7c-6d9f-8e2b4c7a1f5d",
+    "name": "საწოლი, კარადა ტუმბო",
+    "category": "საძინებელი",
+    "price": 2600,
+    "description": "საძინებლის კომპლექტი ბეჟი რბილი საწოლით, სარკიანი კარადითა და ორი ტუმბოთი. საწოლის ფართო, რბილი საზურგე და შეხამებული ფერები ქმნის მყუდრო გარემოს. ერთ საწოლიანი 350ლარიდან/ და ორსაწოლიანი 700 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792399237/%D0%AD%D0%BB%D0%B5%D0%B3%D0%B0%D0%BD%D1%82%D0%BD%D0%B0%D1%8F_%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F_%D1%81_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%BC_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%D0%BE%D0%BC.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "6f9e2a4b-8d7c-4a5f-3e9b-7c4d2a8f6b1e",
+    "name": "კარადა",
+    "category": "კარადა",
+    "price": 350,
+    "description": "შემოსასვლელის კარადა პრიალა კრემისფერი ფასადებით, ცენტრალური სარკითა და რბილი დასაჯდომით. გვერდითი კარადები, ზედა სათავსოები და ქვედა უჯრები ნივთების მოწესრიგებულად შენახვას უზრუნველყოფს. ლამინატი 300ლარიდან მეტრი კვადრატი,mdp 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792400261/%D0%97%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D0%BE_%D0%B1%D0%B5%D0%B7_%D0%BE%D1%82%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F_%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B0.png"
+    ],
+    "material": "თურქული ლამინატი",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "8a3d7f2e-5c9b-4f6a-2d8e-9c4f7a3b6e1d",
+    "name": "კარადა",
+    "category": "კარადა",
+    "price": 350,
+    "description": "საძინებლის ავეჯის კომპლექტი კრემისფერ ტონებში — ტანსაცმლის კარადით, ზედა სათავსოებით, ღია ნიშითა და უჯრებიანი კომოდით. პრაქტიკული დიზაინი სივრცის ეფექტურად გამოსაყენებლად. ლამინატი 300ლარიდან მეტრი კვადრატი, mdp 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792400538/%D0%9A%D1%80%D0%B5%D0%BC%D0%BE%D0%B2%D1%8B%D0%B9_%D1%88%D0%BA%D0%B0%D1%84-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%B2_%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D0%BE%D0%B9_%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5-6.png"
+    ],
+    "material": "თურქული ლამინატი",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "4e8b6f9a-2d5c-4a7e-9f3b-6d8c2a4e7f1b",
+    "name": "კარადა",
+    "category": "კარადა",
+    "price": 400,
+    "description": " კრემისფერი ტანსაცმლის კარადა ზედა სათავსოებითა და ორივე მხარეს ღია თაროებით. შავი სახელურები და ღია ცისფერი დეტალები ავეჯს თანამედროვე იერს აძლევს. ლამინატი 300ლარიდან მეტრი კვადრატი, mdp 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792401044/%D0%A1%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_%D1%88%D0%BA%D0%B0%D1%84_%D1%81_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%BC%D0%B8_%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0%D0%BC%D0%B8-5.png"
+    ],
+    "material": "თურქული ლამინატი",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "1f9c4e7a-8b3d-4a6f-5e2c-9d7a4b8e6f3c",
+    "name": "კარადა",
+    "category": "კარადა",
+    "price": 400,
+    "description": "ტანსაცმლის კარადა — სამი გასაგორებელი კარითა და ზედა სათავსოებით. ლამინატი 300ლარიდან მეტრი კვადრატი, mdp 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792401572/%D0%A1%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_%D1%88%D0%BA%D0%B0%D1%84_%D0%B8_%D0%BC%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD_JNS-2.png"
+    ],
+    "material": "თურქული ლამინატი",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "7d5a2f8c-9e4b-4a3d-6f8e-2c9a7b4f1e5d",
+    "name": "კარადა",
+    "category": "კარადა",
+    "price": 400,
+    "description": "ტანსაცმლის კარადა — ორი გასაგორებელი კარით, შავი ჩარჩოებითა და ზედა სათავსოებით. ლამინატი 300ლარიდან მეტრი კვადრატი, mdp 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792401679/%D0%9A%D1%80%D0%B5%D0%BC%D0%BE%D0%B2%D1%8B%D0%B9_%D1%88%D0%BA%D0%B0%D1%84-%D0%BA%D1%83%D0%BF%D0%B5_%D1%81_%D0%BC%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD%D0%BE%D0%BC_JNS-3.png"
+    ],
+    "material": " MDF (AGT)",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "3c9f7a2e-6d4b-4a8f-5e9c-8d2a6f4b7e1c",
+    "name": "ტელევიზორის კედელი ხის დეკორით",
+    "category": "TV კუთხე",
+    "price": 150,
+    "description": "ტელევიზორის კედლის პანელი — დეკორატიული თაროებით, ხისფერისა და თეთრის კომბინაციით. ლამინატი 300ლარიდან მეტრი კვადრატი, mdp 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792417828/%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9_%D0%A2%D0%92-%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_%D1%81_%D0%B1%D0%B5%D0%BB%D1%8B%D0%BC%D0%B8_%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0%D0%BC%D0%B8.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "5e2b8f4a-9c7d-4a6e-3f9b-7d4c8a2e6f1b",
+    "name": "ტელევიზორის კედელი ხის დეკორით",
+    "category": "TV კუთხე",
+    "price": 600,
+    "description": "ტელევიზორის კედლის კომპლექტი — დაკიდებული ტუმბოთი, ღია თაროთი და დეკორატიული ლარტყებით. ლამინატი 300ლარიდან მეტრი კვადრატი, mdp 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792418022/%D0%A7%D0%B8%D1%81%D1%82%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80_%D0%B1%D0%B5%D0%B7_%D0%BB%D0%B8%D1%88%D0%BD%D0%B8%D1%85_%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%BE%D0%B2.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "9a6f3d2c-8e5b-4a7f-2d9c-6f4a8b3e7d1f",
+    "name": " სარკე, ნიჟარა და ნიჟარის ტუმბო",
+    "category": "აბაზანა",
+    "price": 550,
+    "description": "აბაზანის ნიჟარის ტუმბო — ორი უჯრით, ზედ დასადგმელი ნიჟარითა და განათებული მრგვალი სარკით. ლამინატი 300ლარიდან მეტრი კვადრატი, mdp 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792563204/%D0%9A%D1%80%D1%83%D0%B3%D0%BB%D0%BE%D0%B5_%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D0%BE_%D1%81_%D1%91%D0%BB%D0%BA%D0%BE%D0%B9_%D0%B1%D0%B5%D0%B7_%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9.png"
+    ],
+    "material": "MDF AGT",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "2d8a4f7c-9b6e-4a5d-8f3c-7e2a9b4f6d1c",
+    "name": "სარკე, ნიჟარა და ნიჟარის ტუმბო",
+    "category": "აბაზანა",
+    "price": 1500,
+    "description": "აბაზანის ნიჟარის კონსოლი — ზედ დასადგმელი ნიჟარით, განათებული მრგვალი სარკითა და კედლის თაროებით. ლამინატი 300ლარიდან მეტრი კვადრატი, mdp 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792563390/%D0%A1%D0%B2%D0%B5%D1%82%D0%BB%D0%B0%D1%8F_%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%81_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%BC_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%D0%BE%D0%BC.png"
+    ],
+    "material": "კარკასი MDF ზედაპირი კვარცი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "6f4c9a2e-7d5b-4a8f-3e9c-2d6a8f4b7e1c",
+    "name": "სარკე, ნიჟარა და ნიჟარის ტუმბო",
+    "category": "აბაზანა",
+    "price": 450,
+    "description": "აბაზანის ნიჟარის ტუმბო — მარმარილოს ეფექტის ფასადით, ზედ დასადგმელი ქვისფერი ნიჟარითა და მრგვალი სარკით. ლამინატი 300ლარიდან მეტრი კვადრატი, MDF 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792563402/%D0%9A%D1%80%D1%83%D0%B3%D0%BB%D0%BE%D0%B5_%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D0%BE_%D0%BD%D0%B0%D0%B4_%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9_%D1%80%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D0%BE%D0%B9.png"
+    ],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "8e3d7f9a-6c2b-4a5f-9d8e-4f7a2c6b8e1d",
+    "name": "სარკე, ნიჟარა და ნიჟარის ტუმბო",
+    "category": "აბაზანა",
+    "price": 700,
+    "description": "აბაზანის ნიჟარის ტუმბო — თეთრი ფასადით,გვერდითი ღია თაროთი და შავი ზედ დასადგმელი ნიჟარით.ლამინატი 300ლარიდან მეტრი კვადრატი, MDF 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792563411/%D0%9F%D0%B0%D1%80%D1%8F%D1%89%D0%B0%D1%8F_%D1%82%D1%83%D0%BC%D0%B1%D0%B0_%D0%B1%D0%B5%D0%B7_%D1%88%D0%B2%D0%B0%D0%B1%D1%80%D1%8B.png"
+    ],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "4b9f2a7d-8e5c-4a6f-3d9e-7c2a6f8b4e1d",
+    "name": "უნიტაზის თავზე დასამონტაჟებელი კარადა",
+    "category": "აბაზანა",
+    "price": 380,
+    "description": "აბაზანის ჩაშენებული კარადა — უნიტაზის ზემოთ სათავსოთი და გვერდითი მაღალი განყოფილებით. ლამინატი 300ლარიდან მეტრი კვადრატი, MDF 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792563421/%D0%97%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%B0%D1%8F_%D0%B1%D0%B5%D0%BB%D0%B0%D1%8F_%D0%BA%D1%80%D1%8B%D1%88%D0%BA%D0%B0_%D1%83%D0%BD%D0%B8%D1%82%D0%B0%D0%B7%D0%B0.png"
+    ],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "1d7a4f8c-9e6b-4a3d-5f9c-8e2a7b4f6d1c",
+    "name": "ნიჟარის ტუმბო",
+    "category": "აბაზანა",
+    "price": 500,
+    "description": "აბაზანის ნიჟარის ტუმბო — თეთრი ორკარიანი სათავსოთი და მარმარილოს ეფექტის ზედაპირით. ლამინატი 300ლარიდან მეტრი კვადრატი, MDF 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792563433/%D0%A5%D1%80%D0%BE%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D1%80%D1%8B%D1%88%D0%BA%D0%B0_%D1%81%D0%BB%D0%B8%D0%B2%D0%B0_%D0%B2_%D1%80%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D0%B5.png"
+    ],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "7c5a9f2e-6d4b-4a8f-2e9c-9d6a4f7b8e1c",
+    "name": "ტელევიზორის კედლის კომპლექტი — ტუმბოთი და დეკორატიული თაროებით",
+    "category": "TV კუთხე",
+    "price": 650,
+    "description": "ტელევიზორის კედლის კომპლექტი — სამუჯრიანი ტუმბოთი და დეკორატიული თაროებით, თეთრისა და ხისფერის კომბინაციით. ლამინატი 300ლარიდან მეტრი კვადრატი,MDF 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792565763/%D0%90%D1%81%D0%B8%D0%BC%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%A2%D0%92-%D0%B7%D0%BE%D0%BD%D0%B0_%D0%B8%D0%B7_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%B0.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "3e9f7a2d-8c6b-4a5f-6d9e-2c8a4f7b6e1d",
+    "name": "ტელევიზორის კედლის კომპლექტი — ტუმბოთი, თაროებითა და დეკორატიული განათებით",
+    "category": "TV კუთხე",
+    "price": 1500,
+    "description": "ტელევიზორის კედლის კომპლექტი — უჯრებიანი ტუმბოთი, ღია თაროებითა და დეკორატიული განათებით.ლამინატი 300ლარიდან მეტრი კვადრატი, MDF 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792576075/%D0%A2%D0%B5%D0%BB%D0%B5%D1%81%D1%82%D0%B5%D0%BD%D0%B0_%D1%81_%D0%A2%D0%92_%D0%B8_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%BC_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%D0%BE%D0%BC.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "9d4a6f8c-7e2b-4a5d-3f9c-6d8a2f4b7e1c",
+    "name": "ტელევიზორის კედლის კომპლექტი — ტუმბოთი, თაროებითა და ხის დეკორატიული ლარტყებით",
+    "category": "TV კუთხე",
+    "price": 1500,
+    "description": "ტელევიზორის კედლის კომპლექტი — თეთრი ტუმბოთი, ღია თაროებითა და ხისფერი დეკორატიული ლარტყებით. ლამინატი 300ლარიდან მეტრი კვადრატი, MDF 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792576161/%D0%94%D1%83%D0%B1%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F_%D1%81_%D0%B1%D0%B5%D0%BB%D1%8B%D0%BC_%D1%88%D0%BA%D0%B0%D1%84%D0%BE%D0%BC.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "5f2c8a7d-9e4b-4a6f-8d3c-7e9a2f4b6d1c",
+    "name": "სამუშაო მაგიდა — უჯრებითა და მარმარილოს ეფექტის ზედაპირით",
+    "category": "მაგიდა",
+    "price": 3000,
+    "description": "სამუშაო მაგიდა — უჯრებიანი ტუმბოთი, მარმარილოს ეფექტის ზედაპირითა და ოქროსფერი დეტალებით. ლამინატი 300ლარიდან მეტრი კვადრატი, MDF 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792580282/%D0%9C%D1%80%D0%B0%D0%BC%D0%BE%D1%80%D0%BD%D1%8B%D0%B9_%D1%81%D1%82%D0%BE%D0%BB_%D1%81_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%BC%D0%B8_%D0%B0%D0%BA%D1%86%D0%B5%D0%BD%D1%82%D0%B0%D0%BC%D0%B8.png"
+    ],
+    "material": "შეღებილი MDF",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "2a8f4d7c-6e9b-4a3f-5d8e-9c2a7f4b6e1d",
+    "name": "ჟურნალის მაგიდა — შავი ზედაპირითა და ნივთების შესანახიგანყოფილებებით",
+    "category": "მაგიდა",
+    "price": 450,
+    "description": "ჟურნალის მაგიდა — შავი ზედაპირითა და ნივთების შესანახი ღია განყოფილებებით. ლამინატი 300ლარიდან მეტრი კვადრატი, MDF 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792580371/%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BA%D0%BE%D1%84%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D1%81%D1%82%D0%BE%D0%BB%D0%B8%D0%BA_%D0%B2_%D1%81%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B5.png"
+    ],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "6d9f3a2e-8c7b-4a5f-2d9e-4f8a6c2b7e1d",
+    "name": "საკონფერენციო მაგიდა — ხისფერი ზედაპირითა და მუქი დეკორატიული ჩანართებით",
+    "category": "მაგიდა",
+    "price": 3000,
+    "description": " საკონფერენციო მაგიდა — ხისფერი ზედაპირითა და მუქი დეკორატიული ჩანართებით. ლამინატი 300ლარიდან მეტრი კვადრატი, MDF 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792580396/%D0%9F%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%BD%D1%8B%D0%B9_%D1%81%D1%82%D0%BE%D0%BB_%D1%81_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9_%D1%8D%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%BE%D0%B9.png"
+    ],
+    "material": "შპონირებული MDF",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "8f4a7d2c-9e6b-4a3f-5d8e-2c9a6f7b4e1d",
+    "name": "კუთხის კომპიუტერის მაგიდა — უჯრებით, თაროებითა და ზედა კარადით",
+    "category": "მაგიდა",
+    "price": 400,
+    "description": "კუთხის კომპიუტერის მაგიდა — უჯრებიანი ტუმბოთი, თაროებითა და ზედა კარადით. ლამინატი 300ლარიდან მეტრი კვადრატი, MDF 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792580380/%D0%94%D1%83%D0%B1%D0%BE%D0%B2%D1%8B%D0%B9_%D1%81%D1%82%D0%BE%D0%BB_%D1%81_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%BC_%D0%BC%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD%D0%BE%D0%BC.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "4c7a9f2e-6d8b-4a5f-3e9c-8d2a6f4b7e1c",
+    "name": "საკონფერენციო მაგიდა — ხისფერი ზედაპირითა და შავი მეტალის ფეხებით",
+    "category": "მაგიდა",
+    "price": 3000,
+    "description": " საკონფერენციო მაგიდა — ხისფერი ზედაპირითა და შავი X-ის ფორმის ფეხებით. ლამინატი 300ლარიდან მეტრი კვადრატი, MDF 380 ლარიდან",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792580419/%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D1%82%D0%BE%D0%BB_%D1%81_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9_%D1%8D%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%BE%D0%B9.png"
+    ],
+    "material": "მეტალი/ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
   }
 ]

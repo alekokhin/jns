@@ -65,23 +65,25 @@ async function ProductContent({ params }: { params: Promise<{ id: string }> }) {
         ? "https://schema.org/InStock"
         : "https://schema.org/OutOfStock",
     },
-    additionalProperty: [
-      {
-        "@type": "PropertyValue",
-        name: "სიგანე",
-        value: `${product.dimensions.width} სმ`,
-      },
-      {
-        "@type": "PropertyValue",
-        name: "სიღრმე",
-        value: `${product.dimensions.depth} სმ`,
-      },
-      {
-        "@type": "PropertyValue",
-        name: "სიმაღლე",
-        value: `${product.dimensions.height} სმ`,
-      },
-    ],
+    additionalProperty: product.dimensions
+      ? [
+          {
+            "@type": "PropertyValue",
+            name: "სიგანე",
+            value: `${product.dimensions.width} სმ`,
+          },
+          {
+            "@type": "PropertyValue",
+            name: "სიღრმე",
+            value: `${product.dimensions.depth} სმ`,
+          },
+          {
+            "@type": "PropertyValue",
+            name: "სიმაღლე",
+            value: `${product.dimensions.height} სმ`,
+          },
+        ]
+      : undefined,
   };
 
   const breadcrumbJsonLd = {
@@ -167,13 +169,15 @@ async function ProductContent({ params }: { params: Promise<{ id: string }> }) {
                 <dt className="font-medium text-brand-gold-400 w-20 shrink-0 sm:w-28">მასალა</dt>
                 <dd className="text-brand-cream-200">{product.material}</dd>
               </div>
-              <div className="flex gap-2">
-                <dt className="font-medium text-brand-gold-400 w-20 shrink-0 sm:w-28">ზომები</dt>
-                <dd className="text-brand-cream-200">
-                  {product.dimensions.width} x {product.dimensions.depth} x{" "}
-                  {product.dimensions.height} სმ (ს x ღ x მ)
-                </dd>
-              </div>
+              {product.dimensions && (
+                <div className="flex gap-2">
+                  <dt className="font-medium text-brand-gold-400 w-20 shrink-0 sm:w-28">ზომები</dt>
+                  <dd className="text-brand-cream-200">
+                    {product.dimensions.width} x {product.dimensions.depth} x{" "}
+                    {product.dimensions.height} სმ (ს x ღ x მ)
+                  </dd>
+                </div>
+              )}
             </dl>
 
             {product.inStock ? (
