@@ -336,5 +336,265 @@
     "material": "მეტალი/ლამინატი",
     "inStock": true,
     "pricePerSqm": false
+  },
+  {
+    "id": "0f6a625d-493e-45d9-9725-c0946a09b656",
+    "name": "კედლის დეკორატიული თარო — ზიგზაგი",
+    "category": "დეკორი",
+    "price": 120,
+    "description": "ორიგინალური ფორმის კედლის თარო — წიგნებისთვის, საყვარელი ნივთებისთვის და თქვენი სივრცის გასალამაზებლად",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792661289/%D0%A1%D0%BA%D1%83%D0%BB%D1%8C%D0%BF%D1%82%D1%83%D1%80%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B5%D0%BB%D0%B0%D1%8F_%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0_%D0%BD%D0%B0_%D1%82%D1%91%D0%BF%D0%BB%D0%BE%D0%B9_%D1%81%D1%82%D0%B5%D0%BD%D0%B5.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "d0008bbd-1669-4a13-92c3-ed85614f768d",
+    "name": "დეკორატიული ტიხარი ხის რეიკებით",
+    "category": "დეკორი",
+    "price": 2500,
+    "description": "ხის რეიკების დეკორატიული ტიხარი — სივრცის ელეგანტური გამყოფი, რომელიც ინტერიერს სითბოსა და გამორჩეულ იერს მატებს",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792662132/%D0%A7%D0%B8%D1%81%D1%82%D1%8B%D0%B9_%D1%88%D0%BE%D1%83%D1%80%D1%83%D0%BC_%D1%81_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D1%8F%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D0%BD%D0%B8%D1%88%D0%B0%D0%BC%D0%B8.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "668437d8-6a20-416c-b6c7-b6d64328d87a",
+    "name": "კედლის დეკორატიული პანელები გეომეტრიული დიზაინით",
+    "category": "დეკორი",
+    "price": 3000,
+    "description": "ღვინის დეკორატიული კუთხე — გამორჩეული დიზაინი, რომელიც ინტერიერს ხასიათსა და განსაკუთრებულ ატმოსფეროს სძენს",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792662170/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%BD%D1%8B%D0%B5_%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B5_%D0%BF%D0%BE%D0%BB%D0%BA%D0%B8_%D0%B8_%D0%BA%D0%B8%D1%80%D0%BF%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "46798863-20d8-477a-a825-78f7f749925d",
+    "name": "ბუხრის დეკორატიული თარო",
+    "category": "დეკორი",
+    "price": 550,
+    "description": "ბუხრის დეკორატიული თარო — დახვეწილი დეტალი, რომელიც ინტერიერს სითბოსა და სიმყუდროვეს მატებს",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792662192/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD_%D1%81_%D0%B1%D0%B5%D0%BB%D1%8B%D0%BC_%D0%BC%D0%BE%D0%BB%D0%B4%D0%B8%D0%BD%D0%B3%D0%BE%D0%BC.png"
+    ],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "6c178f0c-81de-4604-afc5-9f9124a51ba2",
+    "name": "კაფეს რბილი დივანი მაგიდით",
+    "category": "დეკორი",
+    "price": 3000,
+    "description": "დეკორატიული დივანი — ღრმა მწვანე ფერი და დახვეწილი დიზაინი თქვენი ინტერიერის გამორჩეული აქცენტისთვის",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792662153/%D0%A7%D0%B8%D1%81%D1%82%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80_%D1%81_%D0%B7%D0%B5%D0%BB%D1%91%D0%BD%D0%BE%D0%B9_%D0%B1%D0%B0%D0%BD%D0%BA%D0%B5%D1%82%D0%BA%D0%BE%D0%B9.png"
+    ],
+    "material": "ალკანტარა",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "cdf8bae7-e576-4e27-9f6e-41902e95ab14",
+    "name": "საწოლის ტუმბო ორი უჯრით",
+    "category": "კომოდი",
+    "price": 150,
+    "description": "საწოლის ტუმბო ორი უჯრით — სადა დიზაინი და თეთრი ფერი თქვენი საძინებლის სიმყუდროვისთვის",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792666731/%D0%91%D0%B5%D0%BB%D0%B0%D1%8F_%D1%82%D1%83%D0%BC%D0%B1%D0%B0_%D1%81_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%BC_%D0%BC%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD%D0%BE%D0%BC.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "5ad6c283-2cb9-46b3-9428-62ccf4e36fd4",
+    "name": "სარკიანი მაგიდა კომოდითა და პუფით",
+    "category": "კომოდი",
+    "price": 900,
+    "description": "სარკიანი მაგიდა კომოდითა და პუფით — თეთრი ფერისა და ხის ტექსტურის დახვეწილი შეხამება თქვენი საძინებლისთვის",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792666735/%D0%91%D0%B5%D0%BB%D1%8B%D0%B9_%D1%82%D1%83%D0%B0%D0%BB%D0%B5%D1%82%D0%BD%D1%8B%D0%B9_%D1%81%D1%82%D0%BE%D0%BB%D0%B8%D0%BA_%D0%B8_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9_%D0%BC%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "d483e93d-8289-48bd-8e60-b51ab297995a",
+    "name": "სარკიანი მაკიაჟის მაგიდა უჯრებიანი ტუმბოთი",
+    "category": "კომოდი",
+    "price": 700,
+    "description": "სარკიანი მაკიაჟის მაგიდა უჯრებიანი ტუმბოთი — სადა ხაზები და კომპაქტური დიზაინი თქვენი თავის მოვლის მყუდრო კუთხისთვის",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792666743/%D0%91%D0%B5%D0%BB%D1%8B%D0%B9_%D1%82%D1%83%D0%B0%D0%BB%D0%B5%D1%82%D0%BD%D1%8B%D0%B9_%D1%81%D1%82%D0%BE%D0%BB%D0%B8%D0%BA_%D1%81_%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D0%BE%D0%BC.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "413dae92-cb23-4dbb-91cf-76d52fa71015",
+    "name": "სარკიანი კომოდი სამუშაო მაგიდითა და კედლის თაროებით",
+    "category": "კომოდი",
+    "price": 1000,
+    "description": "სარკიანი კომოდი მაგიდითა და კედლის თაროებით — თეთრი ფერისა და ხის ტექსტურის ჰარმონია, სილამაზე და პრაქტიკულობა ერთ სივრცეში",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792666751/%D0%91%D0%B5%D0%BB%D1%8B%D0%B9_%D0%B3%D0%B0%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80_%D1%81_%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D0%BE%D0%BC_%D0%B8_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%BC_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%D0%BE%D0%BC.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "531a05a4-f35a-4002-add7-afd91539f1bd",
+    "name": "სამზარეულო",
+    "category": "სამზარეულო",
+    "price": 350,
+    "description": "სამზარეულოს ავეჯი — ხის თბილი ტექსტურა, ნაცრისფერი ფასადები და ნაზი განათება მყუდრო ყოველდღიურობისთვის",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792672984/%D0%A4%D0%BE%D1%82%D0%BE%D1%80%D0%B5%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_L-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BD%D0%B0%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D1%8F_%D0%B8%D0%B7_%D0%B4%D1%83%D0%B1%D0%B0-2.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "595646e3-c7dd-4ecd-b732-95825845f8ab",
+    "name": "სამზარეულო",
+    "category": "სამზარეულო",
+    "price": 400,
+    "description": "თანამედროვე სამზარეულო — ნაცრისფერი ტექსტურის, შავი აქცენტებისა და ნაზი განათების ელეგანტური შეხამება",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792673099/%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%80%D0%B0%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D1%8F_%D1%81_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%BC_%D0%BC%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD%D0%BE%D0%BC-1.png"
+    ],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "1f34e888-54e8-48d6-86cd-25e911f6c947",
+    "name": "სამზარეულო",
+    "category": "სამზარეულო",
+    "price": 400,
+    "description": "სამზარეულო ბარის დახლით — მუქი ფასადები, თეთრი აქცენტები და თბილი განათება თანამედროვე, მყუდრო სივრცისთვის",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792673217/%D0%9E%D0%BB%D0%B8%D0%B2%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D1%8F_%D1%81_%D0%B1%D0%B0%D1%80%D0%BD%D0%BE%D0%B9_%D1%81%D1%82%D0%BE%D0%B9%D0%BA%D0%BE%D0%B9.png"
+    ],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "7baa6df9-d6bf-4a00-b076-92c083b8bbce",
+    "name": "სამზარეულო",
+    "category": "სამზარეულო",
+    "price": 400,
+    "description": "კუთხის სამზარეულო განათებული ვიტრინით — თეთრი ფასადები, მუქი აქცენტები და ოქროსფერი ნათება დახვეწილი ინტერიერისთვის",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792673331/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BA%D1%82%D0%BD%D0%B0%D1%8F_L_%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BD%D0%B0%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D1%8F_%D1%81_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%D0%BE%D0%BC_JNS.png"
+    ],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "b274481c-fe65-4fa3-96fb-132331f32323",
+    "name": "სამზარეულო",
+    "category": "სამზარეულო",
+    "price": 400,
+    "description": "კუთხის სამზარეულო — ხის თბილი ტონებისა და თეთრი ფასადების შეხამება, სივრცის პრაქტიკული განლაგებით",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792673484/%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D1%8F_%D0%B2_%D1%82%D1%91%D0%BF%D0%BB%D0%BE%D0%BC_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%B5.png"
+    ],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "9fcb23bc-6537-412e-8666-9dd14ca96df5",
+    "name": "სამზარეულო",
+    "category": "სამზარეულო",
+    "price": 400,
+    "description": "კუთხის სამზარეულო — თეთრი და შავი ფასადების ელეგანტური კონტრასტი, ღია თაროებითა და პრაქტიკული განლაგებით",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792673591/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BA%D1%82%D0%BD%D0%B0%D1%8F_L-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BD%D0%B0%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D1%8F_%D0%B2_%D0%BC%D1%80%D0%B0%D0%BC%D0%BE%D1%80%D0%B5.png"
+    ],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "f4499a8b-daae-478b-8ccc-e1869be5c3cd",
+    "name": "სამზარეულო",
+    "category": "სამზარეულო",
+    "price": 350,
+    "description": "კუთხის სამზარეულო — პრიალა თეთრი ფასადებისა და ხის ტექსტურის თბილი შეხამება, ფართო სამუშაო ზედაპირით",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792673859/%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D0%B8_%D1%81_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%D0%BE%D0%BC_JNS.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "9d09ea69-1b47-40b1-948f-a0ef131356d6",
+    "name": "სამზარეულო",
+    "category": "სამზარეულო",
+    "price": 350,
+    "description": "კუთხის სამზარეულო — თეთრი ფასადები და ხის მუქი ტექსტურა, სითბოსა და სიმარტივის ლამაზი ბალანსი",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792673897/%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D1%84%D0%BE%D1%82%D0%BE%D1%81%D1%8A%D1%91%D0%BC%D0%BA%D0%B0_L_%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BD%D0%BE%D0%B9_%D0%BA%D1%83%D1%85%D0%BD%D0%B8.png"
+    ],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "210fd531-5d66-44c7-ae4e-7d441a7018a6",
+    "name": "სამზარეულო",
+    "category": "სამზარეულო",
+    "price": 400,
+    "description": "კუთხის სამზარეულო — თეთრი ფასადები და ხის მუქი ტექსტურა, სითბოსა და სიმარტივის ლამაზი ბალანსი",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792674150/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D1%8F_%D1%81_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D1%8F%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D0%B0%D0%BA%D1%86%D0%B5%D0%BD%D1%82%D0%B0%D0%BC%D0%B8.png"
+    ],
+    "material": "",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "cc8bc1d3-97e7-40e3-a20d-6b825540b471",
+    "name": "სამზარეულო",
+    "category": "სამზარეულო",
+    "price": 400,
+    "description": "თანამედროვე სამზარეულო — შავი და თეთრი ფასადების მკაფიო კონტრასტი, სადა ხაზები და მოხერხებული განლაგება",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792674162/%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%81%D1%8A%D1%91%D0%BC%D0%BA%D0%B0_%D1%81%D0%B5%D1%80%D0%BE-%D0%B1%D0%B5%D0%BB%D0%BE%D0%B9_%D0%BA%D1%83%D1%85%D0%BD%D0%B8.png"
+    ],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "11aba68e-fb0a-4044-b299-42b63d643eef",
+    "name": "სამზარეულო",
+    "category": "სამზარეულო",
+    "price": 400,
+    "description": "კლასიკური თეთრი სამზარეულო — დახვეწილი დეტალები და მინის ვიტრინები ნათელი, მყუდრო სივრცისთვის",
+    "images": [
+      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792674169/%D0%A1%D0%B2%D0%B5%D1%82%D0%BB%D0%B0%D1%8F_%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D1%8F_%D1%81_%D0%BC%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD%D0%BE%D0%BC_JNS.png"
+    ],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": true
   }
 ]
