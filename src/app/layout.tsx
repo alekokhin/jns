@@ -137,7 +137,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                       მისამართი
                     </dt>
                     <dd className="mt-1 text-brand-cream-300">
-                      ბათუმი, საქართველო
+                      ბათუმი, მამია ვარშანიძის 141
                     </dd>
                   </div>
                   <div>
