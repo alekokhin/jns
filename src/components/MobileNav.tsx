@@ -30,7 +30,7 @@ export default function MobileNav() {
             <Link href="/" onClick={() => setOpen(false)} className="hover:text-brand-gold-400 transition-colors">
               კატალოგი
             </Link>
-            <Link href="/#" onClick={() => setOpen(false)} className="hover:text-brand-gold-400 transition-colors">
+            <Link href="/about" onClick={() => setOpen(false)} className="hover:text-brand-gold-400 transition-colors">
               ჩვენს შესახებ
             </Link>
             <button

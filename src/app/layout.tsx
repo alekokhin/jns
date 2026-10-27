@@ -106,7 +106,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 კატალოგი
               </Link>
               <Link
-                href="/#"
+                href="/about"
                 className="hover:text-brand-gold-400 transition-colors"
               >
                 ჩვენს შესახებ
