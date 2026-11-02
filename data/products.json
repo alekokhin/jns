@@ -207,19 +207,7 @@
     "inStock": true,
     "pricePerSqm": false
   },
-  {
-    "id": "4b9f2a7d-8e5c-4a6f-3d9e-7c2a6f8b4e1d",
-    "name": "უნიტაზის თავზე დასამონტაჟებელი კარადა",
-    "category": "აბაზანა",
-    "price": 380,
-    "description": "აბაზანის ჩაშენებული კარადა — უნიტაზის ზემოთ სათავსოთი და გვერდითი მაღალი განყოფილებით. ლამინატი 300ლარიდან მეტრი კვადრატი, MDF 380 ლარიდან",
-    "images": [
-      "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792563421/%D0%97%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%B0%D1%8F_%D0%B1%D0%B5%D0%BB%D0%B0%D1%8F_%D0%BA%D1%80%D1%8B%D1%88%D0%BA%D0%B0_%D1%83%D0%BD%D0%B8%D1%82%D0%B0%D0%B7%D0%B0.png"
-    ],
-    "material": "MDF",
-    "inStock": true,
-    "pricePerSqm": true
-  },
+
   {
     "id": "1d7a4f8c-9e6b-4a3d-5f9c-8e2a7b4f6d1c",
     "name": "ნიჟარის ტუმბო",
@@ -582,7 +570,7 @@
     ],
     "material": "MDF",
     "inStock": true,
-    "pricePerSqm": false
+    "pricePerSqm": true
   },
   {
     "id": "11aba68e-fb0a-4044-b299-42b63d643eef",
@@ -594,6 +582,204 @@
       "https://res.cloudinary.com/p2g8xu5h/image/upload/v1792674169/%D0%A1%D0%B2%D0%B5%D1%82%D0%BB%D0%B0%D1%8F_%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D1%8F_%D1%81_%D0%BC%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD%D0%BE%D0%BC_JNS.png"
     ],
     "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "657e0c13-c8b2-4fc5-a160-c6dc6e501dff",
+    "name": "ტელევიზორის დაკიდებული ტუმბო დეკორატიული რეიკების პანელით",
+    "category": "TV კუთხე",
+    "price": 2000,
+    "description": "თანამედროვე ტელევიზორის კუთხე დეკორატიული ხის პანელებით, ღია თაროებითა და დახურული სათავსოებით.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1793103471/%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%A2%D0%92-%D1%81%D1%82%D0%B5%D0%BD%D0%B0_%D1%81_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%BC_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%D0%BE%D0%BC.png"],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "2419e5eb-a266-44b3-8d67-b2e306ddc482",
+    "name": "ტელევიზორის კედლის სექცია ღია თაროებითა და ქვედა დახურული სათავსოებით",
+    "category": "TV კუთხე",
+    "price": 2000,
+    "description": "ტელევიზორის კედელი ღია თაროებითა და დახურული ქვედა სათავსოებით. ხისფერი და თეთრი დეტალების კომბინაცია ინტერიერს თბილ, თანამედროვე იერს სძენს. სხვადასხვა ზომის თაროები იდეალურია წიგნების, დეკორისა და აქსესუარების განსათავსებლად.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1793102810/Gemini_Generated_Image_cztyfhcztyfhczty.jpg"],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "59a851d6-c9a0-4ab5-b74e-6bad7a3de4ae",
+    "name": "ტელევიზორის კედლის სექცია მინისკარიანი კარადებითა და დაკიდებული ტუმბოთი",
+    "category": "TV კუთხე",
+    "price": 900,
+    "description": "კედელზე დაკიდებული ტელევიზორის სექცია ხის ფაქტურით. დიზაინი აერთიანებს ქვედა დახურულ სათავსოებს, ორ მინისკარიან კარადასა და ზედა დამაკავშირებელ თაროს. იატაკიდან აწეული კონსტრუქცია სივრცეს მსუბუქ იერს სძენს და დალაგებას ამარტივებს.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1793102967/Gemini_Generated_Image_b2c908b2c908b2c9.jpg"],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "20a2db9d-2e88-4926-b46a-2a063ab6b300",
+    "name": "ტელევიზორის კედლის პანელი დეკორატიული განათებითა და დაკიდებული ტუმბოთი",
+    "category": "TV კუთხე",
+    "price": 1500,
+    "description": "ტელევიზორის კედლის პანელი თბილი ფონური განათებითა და ორი ვერტიკალური დეკორატიული ნიშით. თეთრი დაკიდებული ტუმბო აერთიანებს დახურულ სათავსოებსა და ღია განყოფილებას ტექნიკისთვის. სადა დიზაინი მისაღებ ოთახში მყუდრო, თანამედროვე გარემოს ქმნის.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1793102627/Gemini_Generated_Image_ibnhu5ibnhu5ibnh.jpg"],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "19dbdb97-7cec-4565-8064-59de6494e342",
+    "name": "ჩაშენებული გარდერობი სრიალა კარებით, ანტრესოლითა და გვერდითი ღია თაროებით",
+    "category": "კარადა",
+    "price": 400,
+    "description": "კრემისფერი გარდერობი სრიალა კარებით, ზედა დახურული სათავსოებითა და გვერდითი ღია თაროებით.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1793188256/%D0%A7%D0%B8%D1%81%D1%82%D1%8B%D0%B9_%D0%BF%D0%BE%D1%82%D0%BE%D0%BB%D0%BE%D0%BA_%D0%B1%D0%B5%D0%B7_%D1%81%D0%B2%D0%B8%D1%81%D0%B0%D1%8E%D1%89%D0%B5%D0%B3%D0%BE_%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8F.png"],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "3feb390e-5801-4a9e-8e11-30889a2e7ceb",
+    "name": "თეთრი ოთხკარიანი გარდერობი ზედა სათავსოებით",
+    "category": "კარადა",
+    "price": 300,
+    "description": "თეთრი ოთხკარიანი გარდერობი ზედა სათავსოებითა და შავი სახელურებით.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1793188270/%D0%91%D0%B5%D0%BB%D1%8B%D0%B9_%D1%88%D0%BA%D0%B0%D1%84_%D0%B2_%D1%82%D1%91%D0%BF%D0%BB%D0%BE%D0%BC_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B5-2.png"],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "af574586-9381-4d4b-aeda-ab17be0e35d7",
+    "name": "თეთრი გარდერობი სარკისებრი კარებითა და ჯვარედინი დეკორით",
+    "category": "კარადა",
+    "price": 750,
+    "description": "თეთრი გარდერობი სარკისებრი კარებითა და ჯვარედინი დეკორით, რომელიც ინტერიერს ელეგანტურ იერს სძენს და სივრცეს ვიზუალურად აფართოებს.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1793188284/%D0%91%D0%B5%D0%BB%D1%8B%D0%B9_%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%88%D0%BA%D0%B0%D1%84_%D0%B2_%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D0%BE%D0%B9_%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5.png"],
+    "material": "შპონირებული MDF",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "89faae74-4193-4ff7-9b7c-99ef74124eb4",
+    "name": "თეთრი სამკარიანი გარდერობი ჰორიზონტალური დეკორატიული ხაზებით",
+    "category": "კარადა",
+    "price": 550,
+    "description": "თეთრი სამკარიანი გარდერობი პრიალა ზედაპირითა და ჰორიზონტალური დეკორატიული ხაზებით, რომელიც ინტერიერს სადა და თანამედროვე იერს სძენს.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1793188302/%D0%91%D0%B5%D0%BB%D1%8B%D0%B9_%D1%80%D0%B8%D1%84%D0%BB%D1%91%D0%BD%D1%8B%D0%B9_%D1%88%D0%BA%D0%B0%D1%84_%D1%81_%D1%8D%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%BE%D0%B9_JNS-1.png"],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "7f0244b7-05cb-4750-8ff5-7b624adbe1ae",
+    "name": "შავი ჟურნალის მაგიდა ოთხი მრგვალი ზედაპირით",
+    "category": "მაგიდა",
+    "price": 600,
+    "description": "შავი ჟურნალის მაგიდა ოთხი მრგვალი ზედაპირითა და წვრილი მეტალის ფეხებით. უჩვეულო გეომეტრიული ფორმა მისაღებ ოთახს თანამედროვე იერს სძენს.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1793188331/%D0%93%D0%BB%D1%8F%D0%BD%D1%86%D0%B5%D0%B2%D1%8B%D0%B5_%D1%81%D1%82%D0%BE%D0%BB%D0%B8%D0%BA%D0%B8_%D1%81_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%BC_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%D0%BE%D0%BC.png"],
+    "material": "ლამინატი შუშა",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "858ba582-041f-4a10-9c53-287f63b24a3d",
+    "name": "საძინებლის კომპლექტი საწოლითა და ჩაშენებული გარდერობით",
+    "category": "საძინებელი",
+    "price": 2800,
+    "description": "საძინებლის კომპლექტი ხისფერი საწოლით, რბილი თავითა და მუქი ნაცრისფერი გარდერობით. ზედა სათავსოები და გვერდითი ღია თაროები სივრცის პრაქტიკულად გამოყენებას უზრუნველყოფს.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1793188361/%D0%94%D1%83%D0%B1%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C_%D0%B2_%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%82%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B3%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BD%D0%BE%D0%B9.png"],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "2b401884-e184-49d8-af5a-0e367f9fad98",
+    "name": "საძინებლის კომპლექტი რბილთავიანი საწოლითა და სრიალაკარიანი გარდერობით",
+    "category": "საძინებელი",
+    "price": 2600,
+    "description": "საძინებლის კომპლექტი ხისფერი საწოლით, მუქი რბილი თავითა და თეთრი სრიალაკარიანი გარდერობით. საწოლის გვერდით განთავსებული ტუმბოები დამატებით სათავსოს ქმნის.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1793189193/%D0%A7%D0%B8%D1%81%D1%82%D0%B0%D1%8F_%D1%81%D1%82%D0%B5%D0%BD%D0%B0_%D0%BD%D0%B0%D0%B4_%D0%B8%D0%B7%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D1%8C%D0%B5%D0%BC.png"],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "db1ea995-8283-47f1-b60a-9f782f99bbf7",
+    "name": "ორსაწოლიანი საწოლი მაღალი რბილი თავითა და დეკორატიული ჩარჩოთი",
+    "category": "საძინებელი",
+    "price": 1500,
+    "description": "კრემისფერი ორსაწოლიანი საწოლი რბილი მოპირკეთებითა და მაღალი, კვადრატულ სექციებად დაყოფილი თავით. დეკორატიული ჩარჩო დიზაინს ელეგანტურ იერს სძენს.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1793188391/%D0%AD%D0%BB%D0%B5%D0%B3%D0%B0%D0%BD%D1%82%D0%BD%D0%B0%D1%8F_%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C_%D1%81_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%BC_%D0%BC%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD%D0%BE%D0%BC.png"],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": false
+  },
+  {
+    "id": "73281e3f-1b22-41df-a292-156fea8ae15f",
+    "name": "თეთრი სამზარეულო ხისფერი სამუშაო ზედაპირით",
+    "category": "სამზარეულო",
+    "price": 400,
+    "description": "თეთრი სამზარეულო ზედა და ქვედა კარადებით, უჯრებითა და ხისფერი სამუშაო ზედაპირით. სადა დიზაინი და პრაქტიკული განლაგება სივრცის მოხერხებულად გამოყენებას უზრუნველყოფს.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1793600488/%D0%91%D0%B5%D0%BB%D1%8B%D0%B5_%D1%81%D1%82%D0%B5%D0%BD%D1%8B_%D0%B4%D1%83%D0%B1%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%88%D0%BD%D0%B8%D1%86%D0%B0.png"],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "1143112a-e4d6-4df8-ad74-d242367e230c",
+    "name": "კუთხის სამზარეულო თეთრი და ნაცრისფერი ფასადებითა და მარმარილოს ფაქტურის კედლის პანელით",
+    "category": "სამზარეულო",
+    "price": 400,
+    "description": "კუთხის სამზარეულო თეთრი ქვედა და ნაცრისფერი პრიალა ზედა კარადებით. მარმარილოს ფაქტურის კედლის პანელი და სამუშაო ზედაპირი ერთიან, ელეგანტურ დიზაინს ქმნის.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1792674206/%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B5%D0%BB%D0%BE-%D1%81%D0%B5%D1%80%D0%B0%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D1%8F_%D1%81_%D0%BC%D1%80%D0%B0%D0%BC%D0%BE%D1%80%D0%BD%D0%BE%D0%B9_%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%BE%D0%B9.png"],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "359c8679-00ba-4d28-bf7e-0f2d334bb9ec",
+    "name": "კრემისფერი კუთხის სამზარეულო ხისფერი სამუშაო ზედაპირით",
+    "category": "სამზარეულო",
+    "price": 400,
+    "description": "კრემისფერი კუთხის სამზარეულო ხისფერი სამუშაო ზედაპირით, ვერცხლისფერი სახელურებითა და უჯრებიანი ქვედა სათავსოებით. ღია ტონები და სადა ფორმები მსუბუქ, მოწესრიგებულ იერს ქმნის.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1792674243/%D0%9A%D1%80%D0%B5%D0%BC%D0%BE%D0%B2%D0%B0%D1%8F_L-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BD%D0%B0%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D1%8F_%D1%81_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%BC_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%D0%BE%D0%BC.png"],
+    "material": "MDF",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "360797dc-4ac1-4a51-8eb6-caa582264f8e",
+    "name": "კუთხის სამზარეულო დეკორატიული ბარის დახლით",
+    "category": "სამზარეულო",
+    "price": 750,
+    "description": "კრემისფერი კუთხის სამზარეულო ჩაშენებული ტექნიკითა და ბარის დახლით. დახლის ნაცრისფერი დეკორატიული მოპირკეთება სამზარეულოსა და მისაღების სივრცეებს გამოყოფს.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1792674193/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D1%8F-%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F_%D1%81_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%BC_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%D0%BE%D0%BC.png"],
+    "material": "თურქული შპონირებული MDF",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "974a8eb6-6aea-44bc-92fb-08f77f1e90ad",
+    "name": "ხისფერი კუთხის სამზარეულო შავი სამუშაო ზედაპირით",
+    "category": "სამზარეულო",
+    "price": 350,
+    "description": "კუთხის სამზარეულო ხის ფაქტურის ფასადებით, შავი სამუშაო ზედაპირითა და ნაცრისფერი კედლის პანელით. ზედა კარადები ჭერამდეა განთავსებული, ქვედა ნაწილში კი ჩაშენებულია ღუმელი.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1792673855/%D0%A3%D0%B3%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D1%8F_%D1%81_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%D0%BE%D0%BC_JNS.png"],
+    "material": "ლამინატი",
+    "inStock": true,
+    "pricePerSqm": true
+  },
+  {
+    "id": "3ab966c0-f31a-4cfc-a934-1ccb28715901",
+    "name": "კუთხის სამზარეულო ხისფერი ზედა და თეთრი ქვედა კარადებით",
+    "category": "სამზარეულო",
+    "price": 350,
+    "description": "კუთხის სამზარეულო ხისფერი ზედა და თეთრი ქვედა კარადებით, ხისფერი სამუშაო ზედაპირითა და ნაცრისფერი კედლის პანელით.",
+    "images": ["https://res.cloudinary.com/p2g8xu5h/image/upload/v1792673846/%D0%A0%D0%B5%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_L-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BD%D0%B0%D1%8F_%D0%BA%D1%83%D1%85%D0%BD%D1%8F_%D0%B8%D0%B7_%D0%B4%D1%83%D0%B1%D0%B0.png"],
+    "material": "ლამინატი",
     "inStock": true,
     "pricePerSqm": true
   }
